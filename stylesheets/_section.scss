@@ -1,0 +1,31 @@
+.section {
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.headerSection {
+    flex-direction: column;
+    h1 {
+        margin-bottom: 70px;
+    }
+    p {
+        font-weight: 300;
+    }
+}
+.section0 {
+    padding: 100px 0;
+}
+.sloganText {
+    margin: 20px 0 30px;
+    li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+}
+.section1 {
+    background-color: $colorGreen;
+}
+.contentWrapper {
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+}
