@@ -1,3 +1,6 @@
+a {
+  color: #fff; }
+
 .bgSection1 {
   background-image: url(../images/teamCover.jpg);
   background-size: cover;
@@ -33,9 +36,26 @@
 .section1 {
   background-color: #B3CC57; }
 
+.section2 {
+  background-color: #FFF89B; }
+
+.section3 {
+  background-color: #71B99E; }
+
 .contentWrapper {
   -webkit-animation-duration: 0.8s;
   animation-duration: 0.8s; }
+
+.listMember {
+  max-width: 1020px;
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 0; }
+  .listMember li {
+    margin-bottom: 20px;
+    max-width: 170px;
+    display: inline-block;
+    margin: 20px; }
 
 .square, .circle, .line {
   -webkit-animation: 7s crazy infinite;
@@ -85,5 +105,40 @@
   100% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; } }
+.wow {
+  visibility: hidden; }
+
+.animate1s {
+  animation-delay: 1s; }
+
+.animate2s {
+  animation-delay: 2s; }
+
+.animate3s {
+  animation-delay: 3s; }
+
+.animate4s {
+  animation-delay: 4s; }
+
+.animate5s {
+  animation-delay: 5s; }
+
+.animate6s {
+  animation-delay: 6s; }
+
+.animate7s {
+  animation-delay: 7s; }
+
+.animate8s {
+  animation-delay: 8s; }
+
+.animate8s {
+  animation-delay: 9s; }
+
+.animate8s {
+  animation-delay: 10s; }
+
+.animate8s {
+  animation-delay: 11s; }
 
 /*# sourceMappingURL=style.css.map */

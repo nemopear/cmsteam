@@ -25,7 +25,27 @@
 .section1 {
     background-color: $colorGreen;
 }
+.section2 {
+    background-color: $colorYellow;
+}
+.section3 {
+    background-color: $colorBlue;
+}
 .contentWrapper {
     -webkit-animation-duration: 0.8s;
     animation-duration: 0.8s;
+}
+
+// section team
+.listMember {
+    max-width: 1020px;
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 0;
+    li {
+        margin-bottom: 20px;
+        max-width: 170px;
+        display: inline-block;
+        margin: 20px;
+    }
 }
