@@ -1,6 +1,22 @@
 a {
   color: #fff; }
 
+.section.textBlack {
+  color: #333; }
+
+.blackBox {
+  background-color: #202328;
+  color: #fff;
+  font-family: 'Inconsolata', monospace, 'Roboto Mono';
+  font-size: 16px;
+  padding: 15px 40px; }
+
+.listBullet {
+  list-style-type: disc; }
+  .listBullet li {
+    list-style-type: disc !important;
+    list-style-position: inside; }
+
 .bgSection1 {
   background-image: url(../images/teamCover.jpg);
   background-size: cover;
@@ -24,7 +40,7 @@ a {
   .headerSection p {
     font-weight: 300; }
 
-.section0 {
+.section1 {
   padding: 100px 0; }
 
 .sloganText {
@@ -33,14 +49,20 @@ a {
     display: inline-block;
     margin: 0 20px; }
 
-.section1 {
-  background-color: #B3CC57; }
-
 .section2 {
-  background-color: #FFF89B; }
+  background-color: #b3cc57; }
 
-.section3 {
-  background-color: #71B99E; }
+.sectionAnimate {
+  background-color: #71b99e; }
+
+.sectionWOW {
+  background-color: #b3cc57; }
+
+.sectionWOWvsnotWow {
+  background-color: #fff89b; }
+
+.sectionRef {
+  background-color: #71b99e; }
 
 .contentWrapper {
   -webkit-animation-duration: 0.8s;
@@ -57,6 +79,14 @@ a {
     display: inline-block;
     margin: 20px; }
 
+.sectionWOWvsnotWow h2 {
+  margin-bottom: 20px; }
+.sectionWOWvsnotWow h3 {
+  font-size: 20px; }
+
+.listRef img {
+  max-width: 400px; }
+
 .square, .circle, .line {
   -webkit-animation: 7s crazy infinite;
   animation: 7s crazy infinite; }
@@ -65,46 +95,62 @@ a {
   0% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; }
+
   50% {
     stroke-dasharray: 600 0; }
+
   100% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; } }
+
 @keyframes line {
   0% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; }
+
   50% {
     stroke-dasharray: 600 0; }
+
   100% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; } }
+
 @-webkit-keyframes crazy {
   0% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; }
+
   50% {
     stroke-dasharray: 600 0; }
+
   70% {
     stroke-dasharray: 300 0; }
+
   90% {
     stroke-dasharray: 0 300; }
+
   100% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; } }
+
 @keyframes crazy {
   0% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; }
+
   50% {
     stroke-dasharray: 600 0; }
+
   70% {
     stroke-dasharray: 300 0; }
+
   90% {
     stroke-dasharray: 0 300; }
+
   100% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; } }
+
 .wow {
   visibility: hidden; }
 
@@ -140,5 +186,3 @@ a {
 
 .animate8s {
   animation-delay: 11s; }
-
-/*# sourceMappingURL=style.css.map */

@@ -12,7 +12,7 @@
         font-weight: 300;
     }
 }
-.section0 {
+.section1 {
     padding: 100px 0;
 }
 .sloganText {
@@ -22,13 +22,19 @@
         margin: 0 20px;
     }
 }
-.section1 {
+.section2 {
     background-color: $colorGreen;
 }
-.section2 {
+.sectionAnimate {
+    background-color: $colorBlue;
+}
+.sectionWOW {
+    background-color: $colorGreen;
+}
+.sectionWOWvsnotWow {
     background-color: $colorYellow;
 }
-.section3 {
+.sectionRef {
     background-color: $colorBlue;
 }
 .contentWrapper {
@@ -48,4 +54,16 @@
         display: inline-block;
         margin: 20px;
     }
+}
+
+.sectionWOWvsnotWow {
+    h2 {
+        margin-bottom: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
+.listRef {
+    img { max-width: 400px;}
 }
