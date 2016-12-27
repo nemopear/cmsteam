@@ -9,7 +9,11 @@ a {
   color: #fff;
   font-family: 'Inconsolata', monospace, 'Roboto Mono';
   font-size: 16px;
-  padding: 15px 40px; }
+  padding: 15px 40px;
+  margin-top: 20px; }
+  .blackBox h3 {
+    font-size: 20px;
+    text-decoration: undeline; }
 
 .listBullet {
   list-style-type: disc; }
@@ -31,7 +35,8 @@ a {
 .section {
   text-align: center;
   color: #fff;
-  position: relative; }
+  position: relative;
+  padding: 50px 0; }
 
 .headerSection {
   flex-direction: column; }
@@ -50,19 +55,19 @@ a {
     margin: 0 20px; }
 
 .section2 {
-  background-color: #b3cc57; }
+  background-color: #B3CC57; }
 
 .sectionAnimate {
-  background-color: #71b99e; }
+  background-color: #71B99E; }
 
 .sectionWOW {
-  background-color: #b3cc57; }
+  background-color: #B3CC57; }
 
 .sectionWOWvsnotWow {
-  background-color: #fff89b; }
+  background-color: #FFF89B; }
 
 .sectionRef {
-  background-color: #71b99e; }
+  background-color: #71B99E; }
 
 .contentWrapper {
   -webkit-animation-duration: 0.8s;
@@ -95,65 +100,46 @@ a {
   0% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; }
-
   50% {
     stroke-dasharray: 600 0; }
-
   100% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; } }
-
 @keyframes line {
   0% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; }
-
   50% {
     stroke-dasharray: 600 0; }
-
   100% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; } }
-
 @-webkit-keyframes crazy {
   0% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; }
-
   50% {
     stroke-dasharray: 600 0; }
-
   70% {
     stroke-dasharray: 300 0; }
-
   90% {
     stroke-dasharray: 0 300; }
-
   100% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; } }
-
 @keyframes crazy {
   0% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; }
-
   50% {
     stroke-dasharray: 600 0; }
-
   70% {
     stroke-dasharray: 300 0; }
-
   90% {
     stroke-dasharray: 0 300; }
-
   100% {
     stroke-dasharray: 0 600;
     stroke-dashoffset: 10; } }
-
-.wow {
-  visibility: hidden; }
-
 .animate1s {
   animation-delay: 1s; }
 
@@ -186,3 +172,5 @@ a {
 
 .animate8s {
   animation-delay: 11s; }
+
+/*# sourceMappingURL=style.css.map */
