@@ -92,6 +92,32 @@ a {
 .listRef img {
   max-width: 400px; }
 
+#granim-canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  width: 100% !important;
+  height: 100% !important; }
+
+.containerWrapper {
+  position: relative;
+  z-index: 1; }
+
+.blockLogo {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  z-index: 3; }
+
+#svg01 > svg {
+  width: 100%; }
+
+@media (min-width: 768px) {
+  #svg01 > svg {
+    width: 500px; } }
 .square, .circle, .line {
   -webkit-animation: 7s crazy infinite;
   animation: 7s crazy infinite; }
